@@ -20,7 +20,6 @@ class login : AppCompatActivity() {
 
         btn_regist.setOnClickListener{
             startActivity(Intent(this, daftar::class.java))
-            finish()
         }
 
         btn_lgn.setOnClickListener{

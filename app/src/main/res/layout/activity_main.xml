@@ -11,7 +11,7 @@
         android:id="@+id/text_view_note_empty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Catatan kosong"
+        android:text="@string/catatan_kosong"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:visibility="gone"
@@ -38,5 +38,6 @@
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_add_white_24dp" />
+        app:srcCompat="@drawable/ic_add_white_24dp"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>

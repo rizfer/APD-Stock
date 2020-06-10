@@ -27,7 +27,7 @@
             android:id="@+id/tv_judul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="APD Stock"
+            android:text="@string/apd_stock"
             android:textSize="24sp"
             android:textAlignment="center"/>
 
@@ -35,7 +35,7 @@
             android:id="@+id/tv_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="16dp"
             android:layout_marginTop="50dp"
@@ -47,7 +47,7 @@
             android:id="@+id/tv_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Kata Sandi"
+            android:hint="@string/kata_sandi"
             android:inputType="textPassword"
             android:padding="16dp"
             android:textSize="16sp"
@@ -62,7 +62,7 @@
             android:textSize="18sp"
             android:layout_marginTop="10dp"
             android:textAllCaps="false"
-            android:text="Masuk"
+            android:text="@string/masuk"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"/>
 
@@ -75,6 +75,6 @@
         android:padding="4dp"
         android:textSize="18sp"
         android:textAllCaps="false"
-        android:text="Tidak punya akun ? klik Daftar "
+        android:text="@string/tidak_punya_akun_klik_daftar"
         android:layout_alignParentBottom="true"/>
 </RelativeLayout>

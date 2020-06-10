@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
                auth.addAuthStateListener {
                    if(auth.currentUser==null){
                        startActivity(Intent(this, login::class.java))
+                       this.finish()
                    }
                }
            }

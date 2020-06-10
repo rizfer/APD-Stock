@@ -27,7 +27,7 @@
             android:id="@+id/tv_judul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="APD Stock"
+            android:text="@string/apd_stock"
             android:textSize="16sp"
             android:textAlignment="center"/>
 
@@ -35,7 +35,7 @@
             android:id="@+id/rg_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nama Pengguna"
+            android:hint="@string/nama_pengguna"
             android:inputType="text"
             android:padding="16dp"
             android:textSize="14sp"
@@ -47,7 +47,7 @@
             android:id="@+id/rg_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="16dp"
             android:textSize="14sp"
@@ -58,7 +58,7 @@
             android:id="@+id/rg_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Kata Sandi"
+            android:hint="@string/kata_sandi"
             android:inputType="textPassword"
             android:padding="16dp"
             android:textSize="14sp"
@@ -78,7 +78,7 @@
                 android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:textAllCaps="false"
-                android:text="Daftar"
+                android:text="@string/daftar"
                 android:layout_marginStart="120dp" />
             <Button
                 android:id="@+id/btn_back"
@@ -88,7 +88,7 @@
                 android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:textAllCaps="false"
-                android:text="Kembali"/>
+                android:text="@string/kembali"/>
         </LinearLayout>
 
 
